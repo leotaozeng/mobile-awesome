@@ -6,7 +6,7 @@ img {
 }
 ```
 
-2. 当包含 input 的父容器设置 transform: translate(-50%, -50%)时, input 有可能无法弹出输入法;
+2. 当包含 input 的父容器设置 transform: translate(-50%, -50%) 时, input 有可能无法弹出输入法;
 ```css
 div.parent {
   position: absolute;
@@ -15,4 +15,4 @@ div.parent {
   transform: translate(-50%, -50%);
 }
 ```
-当前解决办法: 改用 flex 布局
+当前解决办法: 改用 flex 布局来设置垂直水平居中
