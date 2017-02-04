@@ -1,4 +1,5 @@
 1 window.devicePixelRatio = 物理像素 / dips (设备独立像素)  
+
 2 img 一定要设置 width 和 vertical
 ```css
 img {
