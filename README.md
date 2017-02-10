@@ -27,3 +27,7 @@ a, input, button {
   -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 ```
+
+- 在 ios 设备, `screen.width` * `window.devicePixelRatio` 得到的是物理像素值
+
+- 在 android 以及 windows phone 设备, `screen.width` 除以 `window.devicePixelRatio` 得到的是设备独立像素值 (dips)
