@@ -31,3 +31,8 @@ a, input, button {
 - 在 ios 设备, `screen.width` * `window.devicePixelRatio` 得到的是物理像素值
 
 - 在 android 以及 windows phone 设备, `screen.width` 除以 `window.devicePixelRatio` 得到的是设备独立像素值 (dips)
+
+- 需要同时获得整数和小数点为 .5 结尾的技巧
+```js
+let score = Math.floor(score * 2) / 2
+```
